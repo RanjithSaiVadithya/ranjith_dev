@@ -68,7 +68,7 @@ export default function About() {
       </div>
 
       {/* Experience Section */}
-      <div className="mt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* <div className="mt-16 mb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-8">Work Experience</h3>
         <div className="space-y-8">
           {experience.map((job) => (
@@ -82,7 +82,7 @@ export default function About() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

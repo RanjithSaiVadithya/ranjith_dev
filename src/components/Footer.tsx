@@ -60,9 +60,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-[#77B0AA]">
-              <li>contact@example.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>San Francisco, CA</li>
+              <li><a href='mailto:ranjithsaivadithya14@gmail.com'>ranjithsaivadithya14@gmail.com</a></li>
+              <li><a href='+91 9440754054'>+91 9440754054</a></li>
+              <li>Anantapur Andra Pradesh</li>
             </ul>
           </div>
         </div>
