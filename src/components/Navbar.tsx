@@ -6,12 +6,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <nav className="text-[#003C43] bg-[#E3FEF7] shadow-lg  fixed w-full z-50">
+    <nav className="text-[#E3FEF7] bg-[#003C43]  text-[#E3FEF7] shadow-lg  fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Code2 className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-[#003C43]  text-xl font-bold ">Ranjith Sai</span>
+            <span className="ml-2 text-[#E3FEF7]  text-xl font-bold ">Ranjith Sai</span>
             {/* <span className="ml-2 text-xl font-bold text-gray-900">DevPortfolio</span> */}
           </div>
           
@@ -20,8 +20,8 @@ export default function Navbar() {
             <NavLink 
               to="/"
               className={({ isActive }) =>
-                `text-[#003C43] text-[#003C43]  hover:underline hover:after:duration-500 hover:after:delay-150 px-3 py-2 rounded-md text-sm font-medium 
-                  ${isActive ? 'underline text-[#003C43] ' : ''} 
+                `text-[#E3FEF7] text-[#E3FEF7]  hover:underline hover:after:duration-500 hover:after:delay-150 px-3 py-2 rounded-md text-sm font-medium 
+                  ${isActive ? 'underline text-[#E3FEF7] ' : ''} 
                   hover:after:content-[""] hover:after:block hover:after:h-[2px] hover:after:bg-indigo-600 
                   hover:after:w-0 hover:after:transition-all hover:after:duration-500 hover:after:delay-150 
                   hover:focus:after:w-full`
@@ -32,8 +32,8 @@ export default function Navbar() {
             <NavLink 
               to="/projects"
               className={({ isActive }) =>
-                `text-[#003C43] text-[#003C43]  hover:underline hover:after:transition-all hover:after:duration-500 hover:after:delay-150 px-3 py-2 rounded-md text-sm font-medium 
-                  ${isActive ? 'underline text-[#003C43] ' : ''} 
+                `text-[#E3FEF7] text-[#E3FEF7]  hover:underline hover:after:transition-all hover:after:duration-500 hover:after:delay-150 px-3 py-2 rounded-md text-sm font-medium 
+                  ${isActive ? 'underline text-[#E3FEF7] ' : ''} 
                   hover:after:content-[""] hover:after:block hover:after:h-[2px] hover:after:bg-indigo-600 
                   hover:after:w-0 hover:after:transition-all hover:after:duration-500 hover:after:delay-150 
                   hover:focus:after:w-full`
@@ -44,8 +44,8 @@ export default function Navbar() {
             <NavLink 
               to="/about"
               className={({ isActive }) =>
-                `text-[#003C43] text-[#003C43]  hover:underline px-3 py-2 rounded-md text-sm font-medium 
-                  ${isActive ? 'underline text-[#003C43] ' : ''} 
+                `text-[#E3FEF7] text-[#E3FEF7]  hover:underline px-3 py-2 rounded-md text-sm font-medium 
+                  ${isActive ? 'underline text-[#E3FEF7] ' : ''} 
                   hover:after:content-[""] hover:after:block hover:after:h-[2px] hover:after:bg-indigo-600 
                   hover:after:w-0 hover:after:transition-all hover:after:duration-500 hover:after:delay-150 
                   hover:focus:after:w-full`
@@ -56,8 +56,8 @@ export default function Navbar() {
             <NavLink 
               to="/contact"
               className={({ isActive }) =>
-                `text-[#003C43] text-[#003C43]  hover:underline px-3 py-2 rounded-md text-sm font-medium 
-                  ${isActive ? 'underline text-[#003C43] ' : ''} 
+                `text-[#E3FEF7] text-[#E3FEF7]  hover:underline px-3 py-2 rounded-md text-sm font-medium 
+                  ${isActive ? 'underline text-[#E3FEF7] ' : ''} 
                   hover:after:content-[""] hover:after:block hover:after:h-[2px] hover:after:bg-indigo-600 
                   hover:after:w-0 hover:after:transition-all hover:after:duration-500 hover:after:delay-150 
                   hover:focus:after:w-full`
@@ -67,7 +67,7 @@ export default function Navbar() {
             </NavLink>
             <a
               href="/contact"
-              className="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition-colors"
+              className="bg-[#E3FEF7] text-[#003C43] px-4 py-2 rounded-md text-sm font-medium border-solid border-2  hover:border-[#E3FEF7] hover:text-[#E3FEF7] hover:bg-[#003C43]  transition-colors"
             >
               Hire Me
             </a>
