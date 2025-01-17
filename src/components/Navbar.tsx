@@ -42,6 +42,18 @@ export default function Navbar() {
               Projects
             </NavLink>
             <NavLink 
+              to="/me"
+              className={({ isActive }) =>
+                `text-[#E3FEF7] text-[#E3FEF7]  hover:underline hover:after:transition-all hover:after:duration-500 hover:after:delay-150 px-3 py-2 rounded-md text-sm font-medium 
+                  ${isActive ? 'underline text-[#E3FEF7] ' : ''} 
+                  hover:after:content-[""] hover:after:block hover:after:h-[2px] hover:after:bg-indigo-600 
+                  hover:after:w-0 hover:after:transition-all hover:after:duration-500 hover:after:delay-150 
+                  hover:focus:after:w-full`
+              }
+            >
+              me
+            </NavLink>
+            <NavLink 
               to="/about"
               className={({ isActive }) =>
                 `text-[#E3FEF7] text-[#E3FEF7]  hover:underline px-3 py-2 rounded-md text-sm font-medium 

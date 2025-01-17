@@ -49,9 +49,10 @@ export default function Home() {
               </div>
               <div className="relative h-96 w-full">
                 <img
-                  src="https://cdni.iconscout.com/illustration/premium/thumb/web-developer-working-on-project-5691689-4759871.png"
+                  src="./assects/dev.png"
+                  // src="https://img.freepik.com/premium-psd/3d-web-developer-working-project-illustration_380580-1407.jpg"
                   alt="Web Developer"
-                  className="absolute inset-0 w-full h-full object-contain animate-float"
+                  className="absolute inset-0 w-full h-full object-contain animate-float "
                 />
                 {/* Floating Elements */}
                 <div className="absolute inset-0">
