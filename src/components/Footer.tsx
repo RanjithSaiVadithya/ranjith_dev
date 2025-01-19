@@ -23,7 +23,7 @@ export default function Footer() {
               <a href="https://linkedin.com" className="text-[#77B0AA] hover:text-[#E3FEF7]">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="mailto:contact@example.com" className="text-[#77B0AA] hover:text-[#E3FEF7]">
+              <a href="mailto:ranjithsaivadithya14@gmail.com" className="text-[#77B0AA] hover:text-[#E3FEF7]">
                 <Mail className="h-6 w-6" />
               </a>
             </div>

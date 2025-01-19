@@ -42,7 +42,7 @@ export default function Home() {
                   <a href="https://linkedin.com" className="text-[#E3FEF7] hover:text-[#77B0AA]">
                     <Linkedin className="h-6 w-6" />
                   </a>
-                  <a href="mailto:contact@example.com" className="text-[#E3FEF7] hover:text-[#77B0AA]">
+                  <a href="mailto:ranjithsaivadithya14@gmail.com" className="text-[#E3FEF7] hover:text-[#77B0AA]">
                     <Mail className="h-6 w-6" />
                   </a>
                 </div>
